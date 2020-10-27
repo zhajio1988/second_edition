@@ -1,4 +1,4 @@
-root/verif/vkits/uvm/1_2/src/dpi/uvm_dpi.cc 
+../vkits/uvm/1_2/src/dpi/uvm_dpi.cc 
 
-+incdir+root/verif/vkits/uvm/1_2/src
-root/verif/vkits/uvm/1_2/src/uvm_pkg.sv
++incdir+../vkits/uvm/1_2/src
+../vkits/uvm/1_2/src/uvm_pkg.sv

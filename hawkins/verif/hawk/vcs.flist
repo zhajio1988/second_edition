@@ -6,14 +6,14 @@
 -debug_pp
 +define+UVM_USE_RESOURCE_CONVERTER
 
--f root/verif/vkits/uvm/1_2/vcs.flist
--f root/verif/vkits/cmn/vcs.flist
--f root/verif/vkits/global/vcs.flist
--f root/verif/vkits/hawk/vcs.flist
+-f ../vkits/uvm/1_2/vcs.flist
+-f ../vkits/cmn/vcs.flist
+-f ../vkits/global/vcs.flist
+-f ../vkits/hawk/vcs.flist
 
-+incdir+root/verif/hawk
-+incdir+root/verif/uvm_common
-+incdir+root/verif/hdl
++incdir+../hawk
++incdir+../uvm_common
++incdir+../hdl
 +incdir+tests
 hawk_tb_top.sv
 tests/basic.sv

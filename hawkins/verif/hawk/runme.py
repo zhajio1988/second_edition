@@ -44,7 +44,7 @@ def clean():
 
     for dirname in dirs:
         try:
-            shutil.rmtree(dirname)
+            shutil.rmtree(dirname, ignore_errors=True)
         except OSError:
             pass
         else:
@@ -63,7 +63,6 @@ def main(argv):
     if type(argv) is str:
         argv = argv.split()
     cmd_args = parse_args(argv)
-    print("debug point ", cmd_args)
 
     if cmd_args['CLEAN']:
         clean()
